@@ -39,6 +39,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Verdana';
+    src: url('_static/fonts/Verdana.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Bold';
+    src: url('_static/fonts/Verdana-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 /* Define the custom font stack for headings */
 h1,
 h2,
@@ -46,7 +60,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Axia Black', 'Interstate', 'Navigo Medium', 'DINosaur-Medium', sans-serif;
+    font-family: 'Verdana Bold', 'Interstate', 'Verdana', 'DINosaur-Medium', sans-serif;
     font-weight: normal;
     /* Adjust this if needed */
 }
@@ -102,7 +116,7 @@ html[data-theme="dark"] {
 
 /* Apply Fira Code to the main text */
 body {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Verdana', monospace;
     font-weight: 400;
     font-style: normal;
     line-height: 1.6;
@@ -110,7 +124,7 @@ body {
 
 /* Optionally customize other text elements */
 p {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Verdana', monospace;
     font-size: 1rem;
     /* Adjust font size as needed */
 }
