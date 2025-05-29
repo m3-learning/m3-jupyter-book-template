@@ -4,7 +4,8 @@
 title: Insert Title Here
 author: Joshua C. Agar
 copyright: "2025" # Copyright year to be placed in the footer
-logo: ./_static/drexel-dragon-all_blue.png # A path to the book logo for light mode
+logo: _static/m3-light.png  # fallback or default
+
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -29,5 +30,10 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: true
-  use_repository_button: true
+  logo: _static/m3-light.png  # fallback
+  theme:
+    name: sphinx_book_theme
+    logo:
+      image_light: _static/m3-light.png
+      image_dark: _static/m3-dark.png
+
